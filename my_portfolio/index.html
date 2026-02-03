@@ -3,102 +3,157 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mohammed Aftab | Portfolio</title>
-
+    <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <!-- NAVBAR -->
-    <header class="navbar">
-      <h2 class="logo">Aftab</h2>
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-
-    <!-- HOME -->
-    <section class="section home" id="home">
-      <div class="content">
-        <h1>Hi, I'm <span>Mohammed Aftab</span></h1>
-        <p>Frontend Developer • DSA Learner • Tech Enthusiast</p>
-        <a href="resume.pdf" class="btn" target="_blank">Download Resume</a>
+    <div class="container">
+      <!-- Navbar -->
+      <div class="navbar">
+        <div class="logo">Logo</div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Skills</li>
+          <li>Contact</li>
+        </ul>
       </div>
-    </section>
 
-    <!-- ABOUT -->
-    <section class="section about" id="about">
-      <div class="content">
+      <!-- Hero Section -->
+      <div class="hero-section">
+        <div class="my-photo">
+          <img
+            src="img/first.jpeg"
+            alt="My Photo"
+            style="
+              width: 100%;
+              max-width: 300px;
+              height: auto;
+              aspect-ratio: 1/1;
+              object-fit: cover;
+              border-radius: 50%;
+            "
+          />
+        </div>
+
+        <div class="hero-content">
+          <h1>HI, I AM MOHAMMED AFTAB</h1>
+          <h2>FRONTEND DEVELOPER</h2>
+          <a href="#">Resume</a>
+        </div>
+      </div>
+
+      <!-- About Section -->
+      <div class="about-section">
         <h2>About Me</h2>
         <p>
-          I'm a passionate developer who loves building clean and interactive
-          web experiences. Currently focusing on Frontend Development, Data
-          Structures, and exploring AI tools.
+          I am a Frontend Developer focused on building clean, responsive, and
+          user-friendly web interfaces, with an emphasis on usability,
+          performance, and modern design principles. I enjoy transforming ideas
+          into intuitive digital experiences and continuously improving my
+          skills through hands-on development and learning. Currently, I am a
+          third year B.Tech student and actively seeking **internship or
+          entry-level opportunities** where I can apply my technical knowledge
+          in real-world projects, gain industry exposure, strengthen my
+          problem-solving skills, and grow as a professional developer.
         </p>
+      </div>
 
-        <h3>Skills</h3>
-        <ul class="skills">
+      <!-- Projects Section -->
+      <div class="projects-section">
+        <h2>Projects</h2>
+
+        <div class="project-cart">
+          <div class="cart">
+            <img
+              src="img/first.jpeg"
+              alt="Project Image"
+              style="width: 100%; max-width: 300px; height: auto"
+            />
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>MongoDB</li>
+            </ul>
+            <div class="code-link">
+              <a href="#">Code</a>
+              <a href="#">Live</a>
+            </div>
+          </div>
+
+          <div class="cart">
+            <img
+              src="img/first.jpeg"
+              alt="Project Image"
+              style="width: 100%; max-width: 300px; height: auto"
+            />
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>MongoDB</li>
+            </ul>
+            <div class="code-link">
+              <a href="#">Code</a>
+              <a href="#">Live</a>
+            </div>
+          </div>
+
+          <div class="cart">
+            <img
+              src="img/first.jpeg"
+              alt="Project Image"
+              style="width: 100%; max-width: 300px; height: auto"
+            />
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>MongoDB</li>
+            </ul>
+            <div class="code-link">
+              <a href="#">Code</a>
+              <a href="#">Live</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Section -->
+      <div class="skills-section">
+        <h2>Skills</h2>
+        <ul>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
-          <li>React (Basics)</li>
-          <li>Git & GitHub</li>
+          <li>React</li>
+          <li>Git</li>
+          <li>DSA</li>
         </ul>
       </div>
-    </section>
 
-    <!-- PROJECTS -->
-    <section class="section projects" id="projects">
-      <div class="content">
-        <h2>Projects</h2>
+      <!-- Contact Section -->
+      <div class="contact-section">
+        <h2>Contact Me</h2>
 
-        <div class="project-card">
-          <h3>Portfolio Website</h3>
-          <p>Personal portfolio using HTML, CSS & JS.</p>
-        </div>
-
-        <div class="project-card">
-          <h3>Typing Game</h3>
-          <p>JavaScript typing speed game with difficulty levels.</p>
-        </div>
-
-        <div class="project-card">
-          <h3>Notes App</h3>
-          <p>Simple notes app using LocalStorage.</p>
-        </div>
+        <form>
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" />
+          <textarea rows="5" placeholder="Your Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
       </div>
-    </section>
 
-    <!-- CONTACT -->
-    <section class="section contact" id="contact">
-      <div class="content">
-        <h2>Contact</h2>
-        <p>
-          Email:
-          <a href="mailto:beingaftab008@gmail.com">beingaftab008@gmail.com</a>
-        </p>
-
-        <div class="socials">
-          <a href="https://github.com/mohammedaftab28" target="_blank"
-            >GitHub</a
-          >
-          <a href="https://www.linkedin.com/in/mohammedaftab28" target="_blank"
-            >LinkedIn</a
-          >
-          <a href="https://leetcode.com/MohammedAftab" target="_blank"
-            >LeetCode</a
-          >
-        </div>
+      <!-- Footer -->
+      <div class="footer">
+        <p>© 2026 Mohammed Aftab. All Rights Reserved.</p>
       </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer>
-      <p>© 2026 Mohammed Aftab</p>
-    </footer>
-
-    <script src="script.js"></script>
+    </div>
   </body>
 </html>
