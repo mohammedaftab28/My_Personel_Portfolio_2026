@@ -10,9 +10,9 @@
   <body>
     <div class="container">
       <!-- Navbar -->
-      <div class="navbar">
+      <div class="navbar" id="home">
         <div class="nav-container">
-          <div class="logo">Aftab</div>
+          <div class="logo">Aftab.Portfolio</div>
 
           <ul class="nav-links">
             <li><a href="#home">Home</a></li>
@@ -34,24 +34,16 @@
       <!-- Hero Section -->
       <div class="hero-section">
         <div class="hero-content">
+          <span style="color: #5eead4; font-weight: 600; letter-spacing: 2px"
+            >WELCOME</span
+          >
           <h1>HI, I AM MOHAMMED AFTAB</h1>
-          <h2>FRONTEND DEVELOPER</h2>
-          <a href="#">Resume</a>
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/mohammedaftab28/"
-                >LinkedIn</a
-              >
-            </li>
-            <li><a href="https://github.com/mohammedaftab28">GitHub</a></li>
-            <li>
-              <a href="https://leetcode.com/u/MohammedAftab/">Leetcode</a>
-            </li>
-          </ul>
+          <h2 class="dynamic-title">FRONTEND DEVELOPER</h2>
+          <a href="#" class="resume-btn">Download Resume</a>
         </div>
         <div class="my-photo">
           <img
-            src="img/first.jpeg"
+            src="img/my-photo.jpeg"
             alt="My Photo"
             style="
               width: 100%;
@@ -66,85 +58,126 @@
       </div>
 
       <!-- About Section -->
-      <div class="about-section">
-        <h2>About Me</h2>
-        <p>
-          I am a Frontend Developer focused on building clean, responsive, and
-          user-friendly web interfaces, with an emphasis on usability,
-          performance, and modern design principles. I enjoy transforming ideas
-          into intuitive digital experiences and continuously improving my
-          skills through hands-on development and learning. Currently, I am a
-          third year B.Tech student and actively seeking **internship or
-          entry-level opportunities** where I can apply my technical knowledge
-          in real-world projects, gain industry exposure, strengthen my
-          problem-solving skills, and grow as a professional developer.
-        </p>
+      <div class="about-section" id="about">
+        <div class="cart-about">
+          <h2>About Me</h2>
+          <p>
+            I am a Frontend Developer focused on building clean, responsive, and
+            user-friendly web interfaces, with an emphasis on usability,
+            performance, and modern design principles. I enjoy transforming
+            ideas into intuitive digital experiences and continuously improving
+            my skills through hands-on development and learning. Currently, I am
+            a third year B.Tech student and actively seeking **internship or
+            entry-level opportunities** where I can apply my technical knowledge
+            in real-world projects, gain industry exposure, strengthen my
+            problem-solving skills, and grow as a professional developer.
+          </p>
+        </div>
       </div>
 
       <!-- Projects Section -->
-      <div class="projects-section">
-        <h2>Projects</h2>
+      <div class="projects-section" id="projects">
+        <h2 style="text-align: center">Featured Projects</h2>
 
         <div class="project-cart">
           <div class="cart">
-            <img
-              src="img/first.jpeg"
-              alt="Project Image"
-              style="width: 100%; max-width: 300px; height: auto"
-            />
-            <h3>TYPING TEST APP</h3>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-            <div class="code-link">
-              <a href="#">Code</a>
-              <a href="#">Live</a>
+            <div class="project-img">
+              <img src="img/Typing.png" alt="Typing Test App" />
+            </div>
+
+            <div class="project-info">
+              <div class="info-header">
+                <h3>TYPING TEST APP</h3>
+                <ul class="tech-tags">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JS</li>
+                </ul>
+              </div>
+
+              <p class="project-desc">
+                A minimalist speed-typing interface designed to track real-time
+                WPM and accuracy metrics. It features dynamic text generation
+                and a responsive design for seamless practice on any device.
+              </p>
+
+              <div class="code-link">
+                <a
+                  href="https://github.com/mohammedaftab28/TypingGame"
+                  class="btn-secondary"
+                  >Code</a
+                >
+                <a
+                  href="https://mohammedaftab28.github.io/TypingGame/"
+                  class="btn-primary"
+                  >Live Demo</a
+                >
+              </div>
             </div>
           </div>
-
           <div class="cart">
-            <img
-              src="img/first.jpeg"
-              alt="Project Image"
-              style="width: 100%; max-width: 300px; height: auto"
-            />
-            <h3>TRAVEL ATLAS</h3>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React.js</li>
-            </ul>
-            <div class="code-link">
-              <a href="#">Code</a>
-              <a href="#">Live</a>
+            <div class="project-img">
+              <img src="img/portfolio.png" alt="Portfolio Website" />
+            </div>
+
+            <div class="project-info">
+              <div class="info-header">
+                <h3>PORTFOLIO WEBSITE</h3>
+                <ul class="tech-tags">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JS</li>
+                </ul>
+              </div>
+
+              <p class="project-desc">
+                A personal portfolio website showcasing my projects, skills, and
+                experience. It features a clean design, responsive layout, and
+                interactive elements to provide an engaging user experience.
+              </p>
+
+              <div class="code-link">
+                <a
+                  href="https://github.com/mohammedaftab28/TypingGame"
+                  class="btn-secondary"
+                  >Code</a
+                >
+                <a
+                  href="https://mohammedaftab28.github.io/TypingGame/"
+                  class="btn-primary"
+                  >Live Demo</a
+                >
+              </div>
             </div>
           </div>
-
           <div class="cart">
-            <img
-              src="img/first.jpeg"
-              alt="Project Image"
-              style="width: 100%; max-width: 300px; height: auto"
-            />
-            <h3>PERSONAL PORTFOLIO</h3>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-            <div class="code-link">
-              <a href="#">Code</a>
-              <a href="#">Live</a>
+            <div class="project-img">
+              <img src="img/soon.png" alt="Typing Test App" />
+            </div>
+
+            <div class="project-info">
+              <div class="info-header">
+                <h3>----------</h3>
+                <ul class="tech-tags">
+                  <li>---</li>
+                  <li>---</li>
+                  <li>---</li>
+                </ul>
+              </div>
+
+              <p class="project-desc">soon</p>
+
+              <div class="code-link">
+                <a href="" class="btn-secondary">Code</a>
+                <a href="" class="btn-primary">Live Demo</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       <!-- Skills Section -->
-      <div class="skills-section">
+      <div class="skills-section" id="skills">
         <h2>Skills</h2>
         <div class="skills-cart">
           <h3>Frontend Skills</h3>
@@ -180,15 +213,32 @@
       </div>
 
       <!-- Contact Section -->
-      <div class="contact-section">
-        <h2>Contact Me</h2>
+      <div class="contact-section" id="contact">
+        <div class="form">
+          <h2>Contact Me</h2>
 
-        <form>
-          <input type="text" placeholder="Your Name" />
-          <input type="email" placeholder="Your Email" />
-          <textarea rows="5" placeholder="Your Message"></textarea>
-          <button type="submit">Send Message</button>
-        </form>
+          <form>
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+
+        <div class="social-connect">
+          <h3>Let's Connect</h3>
+          <ul class="social-links">
+            <li>
+              <a href="https://www.linkedin.com/in/mohammedaftab28/"
+                >LinkedIn</a
+              >
+            </li>
+            <li><a href="https://github.com/mohammedaftab28">GitHub</a></li>
+            <li>
+              <a href="https://leetcode.com/u/MohammedAftab/">Leetcode</a>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <!-- Footer -->
