@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <!-- Navbar -->
-      <div class="navbar" id="home">
+      <div class="navbar">
         <div class="nav-container">
           <div class="logo">Aftab.Portfolio</div>
 
@@ -32,7 +32,7 @@
       </div>
 
       <!-- Hero Section -->
-      <div class="hero-section">
+      <div class="hero-section" id="home">
         <div class="hero-content">
           <span style="color: #5eead4; font-weight: 600; letter-spacing: 2px"
             >WELCOME</span
@@ -210,10 +210,23 @@
         <div class="form">
           <h2>Contact Me</h2>
 
-          <form>
-            <input type="text" placeholder="Your Name" />
-            <input type="email" placeholder="Your Email" />
-            <textarea rows="5" placeholder="Your Message"></textarea>
+          <form
+            action="https://formsubmit.co/fac4262f61ed535d52004d3b3380e785"
+            method="POST"
+          >
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
             <button type="submit">Send Message</button>
           </form>
         </div>
